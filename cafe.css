@@ -139,19 +139,19 @@ header {
 }
 
 .bg1 {
-    background-image: url("Cafe.images/top-imageA.jpg");
+    background-image: url("./cafe-images/top-imageA.jpg");
 }
 
 .bg2 {
-    background-image: url("Cafe.images/top-imageB.jpg");
+    background-image: url("./cafe-images/top-imageB.jpg");
 }
 
 .bg3 {
-    background-image: url("Cafe.images/top-imageC.jpg");
+    background-image: url("./cafe-images/top-imageC.jpg");
 }
 
 .bg4 {
-    background-image: url("Cafe.images/top-imageD.jpg");
+    background-image: url("./cafe-images/top-imageD.jpg");
 }
 
 .top-message {
@@ -216,7 +216,7 @@ site-menu
     width: 150px;
     height: 250px;
 
-    background-image: url("Cafe.images/background-color.png");
+    background-image: url("./cafe-images/background-color.png");
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -266,20 +266,20 @@ consept
 }
 
 .fi-1 {
-    background-image: url("Cafe.images/cafeshopA.jpg");
+    background-image: url("./cafe-images/cafeshopA.jpg");
     opacity: 1;
 }
 
 .fi-2 {
-    background-image: url("Cafe.images/cafeshopB.jpg");
+    background-image: url("./cafe-images/cafeshopB.jpg");
 }
 
 .fi-3 {
-    background-image: url("Cafe.images/cafeshopC.jpg");
+    background-image: url(".cafe-images/cafeshopC.jpg");
 }
 
 .fi-4 {
-    background-image: url("Cafe.images/cafeshopD.jpg");
+    background-image: url("./cafe-images/cafeshopD.jpg");
 }
 
 /*------------*/
