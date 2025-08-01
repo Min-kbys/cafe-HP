@@ -117,7 +117,7 @@
             <div class="menu-top">
                 <p class="title">Menu</p>
                 <div class="message">
-                    <img src="./cafe.images/text-icon.png">
+                    <img src="./cafe-images/text-icon.png">
                     <p>素材本来の味を大切にした、
                         <br>からだにやさしいごはんとドリンク。
                     </p>
@@ -418,7 +418,7 @@
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add("active");
-                observer.unobserve(entry, target);
+                observer.unobserve(entry.target);
             }
         });
     }, {
@@ -455,7 +455,7 @@
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add("active");
-                observer.unobserve(entry. target);
+                observer.unobserve(entry.target);
             }
         });
     }, {
