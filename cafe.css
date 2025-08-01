@@ -664,3 +664,6 @@ footer
     width: 65px;
     height: auto;
 }
+body {
+    background: url("./cafe-images/top-imageA.jpg") no-repeat center / cover;
+}
